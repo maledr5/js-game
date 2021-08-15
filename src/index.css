@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.myGrid {
+  width: 480px;
+  height: 480px;
+  display: grid;
+  grid-gap: 16px;
+}
+
+.myGrid > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+}
+
+.enemy {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  cursor: grab;
+}
+.enemy:active {
+  cursor: grabbing;
+}
