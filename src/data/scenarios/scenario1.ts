@@ -1,6 +1,6 @@
-import myHero from "../MyHero";
-import myEnemy from "../MyEnemy";
 import { Scenario } from "../../Types";
+import myHero from "../myHero";
+import myEnemy from "../myEnemy";
 
 const scenario1: Scenario = {
     entities: [myHero, myEnemy]

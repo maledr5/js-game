@@ -3,7 +3,7 @@ import { Character } from "../Types";
 import React from "react";
 
 const {CharacterType} = require("../Types");
-const myHero: Character = {
+const myEnemy: Character = {
   type: CharacterType.enemy,
   initialPosition: {x: 1, y: 1},
   render: <Enemy name="Ugly Enemy"/>,
@@ -15,4 +15,4 @@ const myHero: Character = {
   deck: []
 }
 
-export default myHero
+export default myEnemy
